@@ -1,0 +1,77 @@
+/* contenedor general */
+.galeria-container-escalas{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px,1fr));
+  gap:25px;
+  padding:20px;
+  width:100%;
+  box-sizing:border-box;
+}
+
+/* tarjeta de cada tabla */
+.galeria-container-escalas table{
+  width:100%;
+  border-collapse:collapse;
+  background:white;
+  border-radius:12px;
+  overflow:hidden;
+  box-shadow:0 6px 18px rgba(0,0,0,0.15);
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/* titulo */
+.galeria-container-escalas thead th{
+  background:linear-gradient(90deg,#0f2027,#203a43,#2c5364);
+  color:white;
+  padding:12px;
+  font-size:18px;
+  letter-spacing:1px;
+}
+
+/* celdas */
+.galeria-container-escalas td{
+  padding:10px;
+  text-align:center;
+  font-size:18px;
+  border-bottom:1px solid #eee;
+}
+
+/* filas azules */
+.fila-edicion{
+  background:#27C5F5;
+  font-weight:bold;
+}
+
+/* filas rojas */
+.fila-intermedia{
+  background:#ff5a5a;
+  color:white;
+}
+
+/* fila final */
+.fila-letrero{
+  background:#27C5F5;
+}
+
+/* etiqueta edición */
+.tag-edicion{
+  background:#ffe600;
+  color:black;
+  font-weight:bold;
+  border-radius:6px;
+}
+
+/* etiqueta letrero */
+.tag-letrero{
+  background:#2eff00;
+  color:black;
+  font-weight:bold;
+  border-radius:6px;
+}
+
+/* efecto hover */
+.galeria-container-escalas table:hover{
+  transform:translateY(-4px);
+  transition:0.25s;
+  box-shadow:0 10px 25px rgba(0,0,0,0.25);
+}
