@@ -85,6 +85,7 @@ const categorias = [
             "f_gol_120.gif",
             "f_gol120.gif",
             "f_korea.gif",
+            "f_luciernagas.gif",
         ],
     },
 
