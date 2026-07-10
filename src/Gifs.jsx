@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Gifs.css";
 
-const BASE_URL = "https://ingeabraham23.github.io/gifs/gifs/";
+const BASE_URL = "https://ingeabraham23.github.io/cassiopeia/gifs/";
 
 const categorias = [
 
@@ -44,6 +44,9 @@ const categorias = [
     {
         nombre: "RUTA 01",
         gifs: [
+            "r1_atoluca.gif",
+            "r1_loma.gif",
+
             "r1_cipreses.gif",
             "r1_ayotzingo.gif",
             "r1_ayotzingo_c.gif",
@@ -86,6 +89,11 @@ const categorias = [
             "f_gol120.gif",
             "f_korea.gif",
             "f_luciernagas.gif",
+            "f_lu2.gif",
+            "f_lu3.gif",
+            "f_lu4.gif",
+            "f_lu5.gif",
+            
         ],
     },
 
@@ -101,6 +109,9 @@ const categorias = [
     {
         nombre: "CHARACTERS",
         gifs: [
+            "ch_mapache_t.gif",
+            "ch_pio.gif",
+            "ch_pio_largo.gif",
             "ch_predator.gif",
             "ch_diablin.gif",
             "ch_taz.gif",
@@ -130,6 +141,7 @@ const categorias = [
         gifs: [
             "calc_wey.gif",
             "calc_wey_6432.gif",
+            "calc_todas.gif",
         ],
     },
 
