@@ -32,6 +32,12 @@ const categorias = [
     {
         nombre: "RUTA 03",
         gifs: [
+            "r3_descanso.gif",
+            "r3_teco_fres.gif",
+            "r3_tenextepec.gif",
+            "r3_tezotepec.gif",
+            "r3_xaxala.gif",
+
             "r3_sani.gif",
             "r3_francia.gif",
             "r3_coyotzingo.gif",
@@ -46,7 +52,6 @@ const categorias = [
         gifs: [
             "r1_atoluca.gif",
             "r1_loma.gif",
-
             "r1_cipreses.gif",
             "r1_ayotzingo.gif",
             "r1_ayotzingo_c.gif",
