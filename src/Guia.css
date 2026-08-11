@@ -163,6 +163,7 @@
 
 .pie-copyright {
   text-align: center;
+  color: #000;
 }
 
 .boton-capturar-simbolos {
@@ -341,6 +342,7 @@
 .pie {
   font-size: 15px;
   text-align: center;
+  color: #000;
 }
 
 /* Colores suaves por paso */
@@ -593,5 +595,40 @@
     color: #000;
     text-align: center;
   }
+
+  .titulo-h {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1f2937;
+  text-align: center;
+  letter-spacing: 0.8px;
+  margin: 10px 0 14px;
+  padding-bottom: 7px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.titulo-h::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 35px;
+  height: 2px;
+  background: #2563eb;
+  border-radius: 10px;
+}
+
+  .fila-pasos {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1f2937;
+  text-align: center;
+  letter-spacing: 0.8px;
+  margin: 10px 0 14px;
+  padding-bottom: 7px;
+  text-transform: uppercase;
+}
 
 
