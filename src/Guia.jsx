@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useRef } from "react";
 import html2canvas from "html2canvas";
 
