@@ -1,14 +1,15 @@
 import { Link } from 'react-router-dom';
 import "./Navbar.css"
 import {
-    faClock,
+    faFileImage, faShapes, faExpand, faBookTanakh,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const navigationItems = [
-    { path: '/', icon: faClock, label: 'Gifs' },
-    { path: '/escalas', icon: faClock, label: 'Escalas' },
-    { path: '/guia', icon: faClock, label: 'Guía' },
+    { path: '/', icon: faFileImage, label: 'Gifs' },
+    { path: '/escalas', icon: faExpand, label: 'Escalas' },
+    { path: '/guia', icon: faBookTanakh, label: 'Guía' },
+    { path: '/grafos', icon: faShapes, label: 'Grafos' },
 
 ];
 

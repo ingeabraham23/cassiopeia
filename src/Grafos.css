@@ -1,0 +1,108 @@
+/* =========================================
+   GRAFOS - DISEÑO EXCLUSIVO PARA MÓVIL
+   ========================================= */
+
+.grafos-container {
+  width: 100%;
+  max-width: 100%;
+  padding: 12px 10px 30px;
+  box-sizing: border-box;
+}
+
+/* Cada grafo */
+
+.grafo-item {
+  width: 100%;
+  margin: 0 auto 24px;
+  text-align: center;
+}
+
+/* Título */
+
+.grafo-titulo {
+  margin: 4px 0 10px;
+  padding: 0;
+
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+
+  line-height: 1.2;
+}
+
+/* Contenedor de la imagen */
+
+.grafo-imagen-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+  border-radius: 10px;
+  background: #f5f5f5;
+
+  box-sizing: border-box;
+}
+
+/* Imagen 700 x 1000 */
+
+.grafo-imagen {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  max-width: 700px;
+
+  object-fit: contain;
+}
+
+/* Botón descargar */
+
+.grafo-descargar {
+  margin-top: 10px;
+
+  width: auto;
+  min-width: 150px;
+
+  padding: 9px 18px;
+
+  border: none;
+  border-radius: 20px;
+
+  background: #222;
+  color: #fff;
+
+  font-size: 13px;
+  font-weight: 500;
+
+  cursor: pointer;
+
+  -webkit-tap-highlight-color: transparent;
+}
+
+.grafo-descargar:active {
+  transform: scale(0.97);
+}
+
+/* =========================================
+   PANTALLAS MUY PEQUEÑAS
+   ========================================= */
+
+@media (max-width: 360px) {
+
+  .grafos-container {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .grafo-titulo {
+    font-size: 15px;
+  }
+
+  .grafo-descargar {
+    font-size: 12px;
+    padding: 8px 15px;
+  }
+}
