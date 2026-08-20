@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useRef } from "react";
 import html2canvas from "html2canvas";
+import VideoYoutube from "./VideoYoutube";
 
 import "./Guia.css";
 
@@ -906,6 +907,12 @@ const Guia = () => {
           📸 Capturar Tabla Precios
         </button>
       </div>
+      <div>
+        <h1 className="titulo-h" >Tutorial para descargar Gifs desde URL y cargar al letrero</h1>
+      <VideoYoutube
+        url="https://youtu.be/DDiGZL0Fui8"
+      />
+    </div>
     </div>
   );
 };

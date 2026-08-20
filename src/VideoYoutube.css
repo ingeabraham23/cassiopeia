@@ -1,0 +1,130 @@
+/* CONTENEDOR PRINCIPAL */
+
+.youtube-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 15px auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+
+/* VIDEO */
+
+.youtube-video {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 14px;
+  background: #000;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+.youtube-video iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+
+/* BOTONES */
+
+.youtube-botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  margin-top: 9px;
+  width: 100%;
+}
+
+
+/* BOTÓN GENERAL */
+
+.youtube-boton {
+  flex: 1;
+  min-width: 0;
+  height: 36px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0 8px;
+
+  border: none;
+  border-radius: 20px;
+
+  background: #f1f1f1;
+  color: #333;
+
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+
+  text-decoration: none;
+
+  cursor: pointer;
+
+  box-sizing: border-box;
+
+  transition: background 0.2s ease;
+}
+
+
+/* BOTÓN YOUTUBE */
+
+.youtube-abrir {
+  background: #e62117;
+  color: white;
+}
+
+
+/* EFECTO AL PRESIONAR */
+
+.youtube-boton:active {
+  transform: scale(0.96);
+}
+
+
+/* ERROR */
+
+.youtube-error {
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+
+  font-size: 13px;
+  color: #777;
+
+  background: #f5f5f5;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+
+/* MÓVIL */
+
+@media (max-width: 480px) {
+
+  .youtube-container {
+    padding: 0 8px;
+    margin: 12px auto;
+  }
+
+  .youtube-video {
+    border-radius: 12px;
+  }
+
+  .youtube-botones {
+    gap: 6px;
+  }
+
+  .youtube-boton {
+    height: 34px;
+    font-size: 11px;
+    padding: 0 5px;
+  }
+}
