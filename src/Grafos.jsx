@@ -11,6 +11,10 @@ const grafos = [
     titulo: "Foto Real Diodo Schottky",
     imagen: "diodoFoto.png",
   },
+  {
+    titulo: "Diagrama conexion Relevador de 5 patas",
+    imagen: "diagramaRelee.png",
+  },
 ];
 
 function Grafos() {
