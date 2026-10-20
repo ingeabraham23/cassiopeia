@@ -244,9 +244,6 @@ const Guia = () => {
       >
         📸 Capturar Tabla 04
       </button>
-
-
-
       // PRECIOS DE LETREROS - PRECIOS DE LETREROS - PRECIOS DE LETREROS
       <div>
         <table className="tabla-tipos" ref={tablatiposRef}>
@@ -499,8 +496,6 @@ const Guia = () => {
       </button>
       <br></br>
       <br></br>
-
-
       <div className="contenedor-tabla">
         <table className="tabla-boton" ref={tablaBotonRojoRef}>
           <thead>
@@ -653,7 +648,7 @@ const Guia = () => {
       <div className="guia-fondo">
         <table className="guia-tabla" ref={tablaAplicacionRef}>
           <tbody>
-            <tr className="fila-pasos" >
+            <tr className="fila-pasos">
               <th>Guía rápida para instalar la aplicación iLED PRO</th>
             </tr>
             {pasos.map((item, index) => (
@@ -691,11 +686,8 @@ const Guia = () => {
       >
         📸 Capturar Tabla Aplicacion
       </button>
-
       {/* ENLACE APP ILED PRO - ENLACE APP ILED PRO - ENLACE APP ILED PRO */}
-
-      <h1 className="titulo-h" >ENLACE APP ILED PRO</h1>
-
+      <h1 className="titulo-h">ENLACE APP ILED PRO</h1>
       <p className="direccion-web-guia">
         https://play.google.com/store/apps/details?id=com.educoay.iled
       </p>
@@ -724,10 +716,8 @@ const Guia = () => {
       </div>
       <br></br>
       <br></br>
-
-
       {/* ENLACE APP SCANNER QR - ENLACE APP SCANER QR - ENLACE APP SCANNER QR */}
-      <h1 className="titulo-h" >ENLACE APP ESCANER QR</h1>
+      <h1 className="titulo-h">ENLACE APP ESCANER QR</h1>
       <p className="direccion-web-guia">
         https://play.google.com/store/apps/details?id=com.teacapps.barcodescanner
       </p>
@@ -908,11 +898,26 @@ const Guia = () => {
         </button>
       </div>
       <div>
-        <h1 className="titulo-h" >Tutorial para descargar Gifs desde URL y cargar al letrero</h1>
-      <VideoYoutube
-        url="https://youtu.be/DDiGZL0Fui8"
-      />
-    </div>
+        <h1 className="titulo-h">
+          Tutorial para descargar Gifs desde URL y cargar al letrero
+        </h1>
+        <VideoYoutube url="https://youtu.be/DDiGZL0Fui8" />
+      </div>
+
+      <div>
+        <h1 className="titulo-h">
+          REINICIO Manual de letrero Iled PRO
+        </h1>
+        <VideoYoutube url="https://youtube.com/shorts/IsigIvcZwy8" />
+      </div>
+
+      <div>
+        <h1 className="titulo-h">
+          Solucion al reinicio manual o cambio de ESP32
+        </h1>
+        <VideoYoutube url="https://youtu.be/M0nm9J8Ul5s" />
+      </div>
+
     </div>
   );
 };

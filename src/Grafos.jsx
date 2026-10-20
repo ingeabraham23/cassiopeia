@@ -15,10 +15,13 @@ const grafos = [
     titulo: "Diagrama conexion Relevador de 5 patas",
     imagen: "diagramaRelee.png",
   },
+  {
+    titulo: "Diagrama conexion I2C con ESP32 para letrero iLED PRO",
+    imagen: "lolinD32.png",
+  },
 ];
 
 function Grafos() {
-
   const descargarImagen = (imagen, titulo) => {
     const ruta = `${import.meta.env.BASE_URL}grafos/${imagen}`;
 
@@ -32,13 +35,9 @@ function Grafos() {
 
   return (
     <div className="grafos-container">
-
       {grafos.map((grafo, index) => (
         <section className="grafo-item" key={index}>
-
-          <h2 className="grafo-titulo">
-            {grafo.titulo}
-          </h2>
+          <h2 className="grafo-titulo">{grafo.titulo}</h2>
 
           <div className="grafo-imagen-container">
             <img
@@ -50,16 +49,12 @@ function Grafos() {
 
           <button
             className="grafo-descargar"
-            onClick={() =>
-              descargarImagen(grafo.imagen, grafo.titulo)
-            }
+            onClick={() => descargarImagen(grafo.imagen, grafo.titulo)}
           >
             ↓ Descargar imagen
           </button>
-
         </section>
       ))}
-
     </div>
   );
 }
