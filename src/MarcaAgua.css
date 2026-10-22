@@ -1,0 +1,258 @@
+
+.marca-agua {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 12px;
+  box-sizing: border-box;
+  color: #202124;
+  font-family: Arial, sans-serif;
+}
+
+.marca-agua *,
+.marca-agua *::before,
+.marca-agua *::after {
+  box-sizing: border-box;
+}
+
+.marca-agua-header {
+  text-align: center;
+  margin: 8px 0 18px;
+}
+
+.marca-agua-header h2 {
+  margin: 0 0 7px;
+  font-size: 23px;
+}
+
+.marca-agua-header p {
+  margin: 0;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.marca-agua-panel {
+  width: 100%;
+  padding: 12px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+}
+
+.marca-agua-boton-subir {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 52px;
+  padding: 12px;
+  margin-bottom: 14px;
+  border: 1px dashed #93b4f5;
+  border-radius: 10px;
+  background: #eff6ff;
+  color: #1d4ed8;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+}
+
+.marca-agua-boton-subir input {
+  display: none;
+}
+
+.marca-agua-boton-logo {
+  background: #f5f3ff;
+  border-color: #c4b5fd;
+  color: #6d28d9;
+}
+
+.marca-agua-seccion {
+  min-width: 0;
+  margin: 15px 0;
+  padding: 14px 11px;
+  border: 1px solid #e5e7eb;
+  border-radius: 11px;
+  background: #fff;
+}
+
+.marca-agua-seccion h3 {
+  margin: 0 0 16px;
+  font-size: 16px;
+}
+
+.marca-agua-label {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin: 17px 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.marca-agua-label input[type="text"],
+.marca-agua-label select {
+  width: 100%;
+  min-height: 46px;
+  padding: 11px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #fff;
+  color: #222;
+  font-size: 16px;
+}
+
+.marca-agua-label select:disabled {
+  opacity: 0.55;
+}
+
+.marca-agua-label input[type="range"] {
+  width: 100%;
+  height: 32px;
+  margin: 0;
+  accent-color: #2563eb;
+  touch-action: pan-y;
+}
+
+.marca-agua-campo {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin: 17px 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.marca-agua-campo input[type="color"] {
+  width: 100%;
+  height: 44px;
+  padding: 3px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: white;
+}
+
+.marca-agua-switch {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  min-height: 44px;
+  margin: 10px 0;
+  font-size: 14px;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.marca-agua-switch input {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  accent-color: #2563eb;
+}
+
+.marca-agua-logo-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin: 16px 0;
+  padding: 14px;
+  border: 1px dashed #d1d5db;
+  border-radius: 9px;
+  background-color: #f3f4f6;
+  background-image: linear-gradient(45deg, #e5e7eb 25%, transparent 25%),
+    linear-gradient(-45deg, #e5e7eb 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #e5e7eb 75%),
+    linear-gradient(-45deg, transparent 75%, #e5e7eb 75%);
+  background-size: 18px 18px;
+  background-position: 0 0, 0 9px, 9px -9px, -9px 0;
+}
+
+.marca-agua-logo-preview img {
+  display: block;
+  max-width: 100%;
+  max-height: 130px;
+  object-fit: contain;
+}
+
+.marca-agua-logo-preview button {
+  min-height: 42px;
+  padding: 9px 16px;
+  border: 1px solid #dc2626;
+  border-radius: 8px;
+  background: white;
+  color: #b91c1c;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.marca-agua-ayuda {
+  margin: 12px 0 2px;
+  color: #6b7280;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.marca-agua-vista {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 9px;
+  background: #f3f4f6;
+}
+
+.marca-agua-vista canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 55vh;
+  object-fit: contain;
+}
+
+.marca-agua-descargar {
+  display: block;
+  width: 100%;
+  min-height: 54px;
+  margin-top: 14px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #166534;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.marca-agua-descargar:active {
+  background: #14532d;
+}
+
+.marca-agua-descargar:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+@media (max-width: 380px) {
+  .marca-agua {
+    padding: 8px;
+  }
+
+  .marca-agua-panel {
+    padding: 9px;
+  }
+
+  .marca-agua-seccion {
+    padding: 12px 9px;
+  }
+
+  .marca-agua-header h2 {
+    font-size: 21px;
+  }
+
+  .marca-agua-descargar {
+    font-size: 14px;
+  }
+}

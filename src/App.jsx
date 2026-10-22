@@ -6,6 +6,7 @@ import Escalas from "./Escalas";
 import Gifs from "./Gifs";
 import Guia from "./Guia";
 import Grafos from "./Grafos";
+import MarcaAgua from "./MarcaAgua";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/escalas" element={<Escalas />} />
           <Route path="/guia" element={<Guia />} />
           <Route path="/grafos" element={<Grafos />} />
+          <Route path="/marca" element={<MarcaAgua />} />
         </Routes>
       </div>
     </HashRouter>

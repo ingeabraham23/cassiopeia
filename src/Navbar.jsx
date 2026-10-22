@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import "./Navbar.css"
 import {
-    faFileImage, faShapes, faExpand, faBookTanakh,
+    faFileImage, faShapes, faExpand, faBookTanakh, faDroplet,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -10,6 +10,7 @@ const navigationItems = [
     { path: '/escalas', icon: faExpand, label: 'Escalas' },
     { path: '/guia', icon: faBookTanakh, label: 'Guía' },
     { path: '/grafos', icon: faShapes, label: 'Grafos' },
+    { path: '/marca', icon: faDroplet, label: 'Marca' },
 
 ];
 
